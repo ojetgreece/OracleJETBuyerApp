@@ -1,0 +1,37 @@
+
+<div id="form-container" class="oj-form-layout oj-margin">
+  <div class="oj-form">
+    <div class="oj-flex">
+      <div class="oj-flex-item">
+        <label for="buyer">Buyer:</label>
+        <input id="buyer" type="" data-bind="ojComponent: 
+                   {component: 'ojInputText', value:buyerName}"/>
+      </div>
+    </div>
+    <div class="oj-flex">
+        <div class="oj-flex-item">
+            <label for="itemName">Item:</label>
+            <input id="itemName" data-bind="ojComponent: 
+                       {component: 'ojInputText', value:itemName}"/>
+        </div>
+    </div>
+    <div class="oj-flex">
+        <div class="oj-flex-item">
+            <label for="quantity">Quantity:</label>
+            <input id="quantity" data-bind="ojComponent: 
+                       {component: 'ojInputText', value:itemQuantity}"/>
+        </div>
+    </div>
+    <div class="oj-flex">
+        <div class="oj-flex-item">
+            <span class="oj-label">Sales Output:</span>
+            <strong data-bind="text: salesOutput"></strong>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--p>Buyer: <input data-bind='value: buyerName'></p>
+<p>Item: <input data-bind='value: itemName'/></p>
+<p>Quantity: <input data-bind='value: itemQuantity'/></p>
+<p>Sales Output: <strong data-bind='text: salesOutput'></strong></p>
